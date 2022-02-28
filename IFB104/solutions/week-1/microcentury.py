@@ -23,8 +23,3 @@ print("Minutes per century:", minutes_per_century)
 microcentury = minutes_per_century / 1000000
 
 print("Microcentury is", round(microcentury), "minutes.")
-
-
-
-
-
