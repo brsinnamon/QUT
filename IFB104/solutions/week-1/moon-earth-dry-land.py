@@ -42,4 +42,4 @@ if (difference < 0):
     print("Moon's land area is larger than the Earth's by about", difference, "sq km.")
 
 
-
+# example of a change
