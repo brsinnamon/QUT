@@ -28,35 +28,35 @@
 # When you run this script the date you have calculated will be
 # printed as an 8-digit number.
 
-day = 0 # Put your day here (one or two digits)
-month = 0 # Put your month here (one or two digits)
-year = 0 # Put your year here (one to four digits)
+day = 12 # Put your day here (one or two digits)
+month = 5 # Put your month here (one or two digits)
+year = 1020 # Put your year here (one to four digits)
 
 # In each of the following steps, do the calculation and store
 # the intermediate result in a variable.  Choose meaningful
 # names for your variables.
 #
 # a. Multiply the day by 100
-pass
+day_mul_100 = day * 100
 # b. Add the month
-pass
+add_month = day_mul_100 + month
 # c. Multiply the result by 80
-pass
+mul_month_80 = add_month * 80
 # d. Add 1
-pass
+add_1 = mul_month_80 + 1
 # e. Multiply the result by 250
-pass
+mul_result_250 = add_1 * 250
 # f. Add the year
-pass
+add_year = mul_result_250 + year
 # g. Add the year again
-pass
+add_year_again = add_year + year
 # h. Subtract 250
-pass
+subtract_250 = add_year_again - 250
 # i. Halve the result using integer division
-pass
+halve_result = subtract_250 // 2
 # j. Assign your final answer to variable "result" (replacing
 # the value 0)
-result = 0
+result = halve_result
 
 # Print the result as an eight digit number.  (The "str" function
 # converts the number to a character string and the "zfill"
@@ -77,9 +77,9 @@ print('The first date you thought of was ' + str(result).zfill(8))
 # the entire calculation all at once.
 #
 
-day = 0 # Put your day here (one or two digits)
-month = 0 # Put your month here (one or two digits)
-year = 0 # Put your year here (one to four digits)
+day = 4 # Put your day here (one or two digits)
+month = 5 # Put your month here (one or two digits)
+year = 1986 # Put your year here (one to four digits)
 
 # Replace the value 0 in the following assignment statement
 # with a single (large!) expression that does exactly the same
@@ -87,7 +87,7 @@ year = 0 # Put your year here (one to four digits)
 # intermediate results to named variables).  It helps to make
 # the expression more readable if you use plenty of brackets,
 # even when they're not strictly necessary.
-result = 0
+result = ((((((day * 100) + month) * 80) + 1) * 250) + (year * 2) - 250) // 2 
 
 # Print the result as an eight digit number, preceded by a blank line
 print()
